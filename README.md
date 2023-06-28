@@ -40,9 +40,9 @@
 
 ## 2.文字区域图片转latex  
 我氪金了，mathpix太好用了，还有现成的api。网上自己训练的模型基本没有什么能打得过的，还有一个不氪金的办法就是邮箱轰炸latexlive，识别准确里也很高，每天限免40个   
-有一个repo是im2latex还挺火的，效果不错，但不能让人满意[im2latex](https://github.com/kingyiusuen/image-to-latex), 但repo owner自己后面也说他觉得mathpix真香  
-但是他的pdf转换有点难用，问题主要出在小节标题上
-他的pdf直接生成的还有个大问题是图片比例完全不对了，**这个要在这个项目中想办法解决**  
+有一个repo是im2latex还挺火的，效果不错，但不能让人满意[im2latex](https://github.com/kingyiusuen/image-to-latex), 但repo owner自己后面也说他觉得mathpix真香    
+但是mathpix的pdf转换有点难用，问题主要出在小节标题上，完全处于一种错乱状态
+mathpix的pdf直接生成的还有个大问题是图片比例完全不对了，**这个要在这个项目中想办法解决**  
 
 ## 3.latex翻译  
 前一段在用ChatGPT的时候发现他竟然能输出公式，并且直接就是latex格式的，这也是我这个项目的思路启发点吧，现在的想法就是把文稿图片识别生成的latex文本直接丢给chatgpt，让他去翻译，并且保留latex格式，通过前面几次调试使其稳定输出正确的代码  
